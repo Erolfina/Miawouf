@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		791F0CA529526D9C00430E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F0CA429526D9C00430E1D /* AppDelegate.swift */; };
 		791F0CA729526D9C00430E1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F0CA629526D9C00430E1D /* SceneDelegate.swift */; };
-		791F0CA929526D9C00430E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F0CA829526D9C00430E1D /* ViewController.swift */; };
 		791F0CAC29526D9C00430E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791F0CAA29526D9C00430E1D /* Main.storyboard */; };
 		791F0CAE29526D9E00430E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791F0CAD29526D9E00430E1D /* Assets.xcassets */; };
 		791F0CB129526D9E00430E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791F0CAF29526D9E00430E1D /* LaunchScreen.storyboard */; };
+		791F0CBB295270D600430E1D /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F0CBA295270D600430E1D /* Races.swift */; };
+		791F0CC02952920100430E1D /* DogWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F0CBF2952920100430E1D /* DogWelcomeViewController.swift */; };
+		791F0CC22952938A00430E1D /* App Assets in Resources */ = {isa = PBXBuildFile; fileRef = 791F0CC12952938A00430E1D /* App Assets */; };
+		79D6B5CB2953C65200B2EFF4 /* DogSuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6B5CA2953C65200B2EFF4 /* DogSuccesViewController.swift */; };
+		79D6B5CD2953C9C900B2EFF4 /* DogFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6B5CC2953C9C900B2EFF4 /* DogFormViewController.swift */; };
+		79D6B5CF2953ECAE00B2EFF4 /* CatWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6B5CE2953ECAE00B2EFF4 /* CatWelcomeViewController.swift */; };
+		79D6B5D1295400F700B2EFF4 /* CatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6B5D0295400F700B2EFF4 /* CatFormViewController.swift */; };
+		79D6B5D32954032700B2EFF4 /* CatSuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6B5D22954032700B2EFF4 /* CatSuccesViewController.swift */; };
+		79D6B5F52954340700B2EFF4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6B5F42954340700B2EFF4 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		791F0CA129526D9C00430E1D /* Miawouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miawouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		791F0CA429526D9C00430E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		791F0CA629526D9C00430E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		791F0CA829526D9C00430E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		791F0CAB29526D9C00430E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		791F0CAD29526D9E00430E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		791F0CB029526D9E00430E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		791F0CB229526D9E00430E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791F0CBA295270D600430E1D /* Races.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Races.swift; path = Miawouf/Model/Races.swift; sourceTree = SOURCE_ROOT; };
+		791F0CBF2952920100430E1D /* DogWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWelcomeViewController.swift; sourceTree = "<group>"; };
+		791F0CC12952938A00430E1D /* App Assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "App Assets"; sourceTree = SOURCE_ROOT; };
+		79D6B5CA2953C65200B2EFF4 /* DogSuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DogSuccesViewController.swift; path = ../../DogSuccesViewController.swift; sourceTree = "<group>"; };
+		79D6B5CC2953C9C900B2EFF4 /* DogFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFormViewController.swift; sourceTree = "<group>"; };
+		79D6B5CE2953ECAE00B2EFF4 /* CatWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWelcomeViewController.swift; sourceTree = "<group>"; };
+		79D6B5D0295400F700B2EFF4 /* CatFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFormViewController.swift; sourceTree = "<group>"; };
+		79D6B5D22954032700B2EFF4 /* CatSuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSuccesViewController.swift; sourceTree = "<group>"; };
+		79D6B5F42954340700B2EFF4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,45 @@
 			children = (
 				791F0CA429526D9C00430E1D /* AppDelegate.swift */,
 				791F0CA629526D9C00430E1D /* SceneDelegate.swift */,
-				791F0CA829526D9C00430E1D /* ViewController.swift */,
-				791F0CAA29526D9C00430E1D /* Main.storyboard */,
-				791F0CAD29526D9E00430E1D /* Assets.xcassets */,
-				791F0CAF29526D9E00430E1D /* LaunchScreen.storyboard */,
 				791F0CB229526D9E00430E1D /* Info.plist */,
+				791F0CBC295271A900430E1D /* Model */,
+				791F0CBD295271C000430E1D /* View */,
+				791F0CBE295271DD00430E1D /* Controller */,
 			);
 			path = Miawouf;
+			sourceTree = "<group>";
+		};
+		791F0CBC295271A900430E1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79D6B5F42954340700B2EFF4 /* Model.swift */,
+				791F0CBA295270D600430E1D /* Races.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		791F0CBD295271C000430E1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				791F0CAD29526D9E00430E1D /* Assets.xcassets */,
+				791F0CC12952938A00430E1D /* App Assets */,
+				791F0CAF29526D9E00430E1D /* LaunchScreen.storyboard */,
+				791F0CAA29526D9C00430E1D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		791F0CBE295271DD00430E1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79D6B5CE2953ECAE00B2EFF4 /* CatWelcomeViewController.swift */,
+				79D6B5D22954032700B2EFF4 /* CatSuccesViewController.swift */,
+				79D6B5D0295400F700B2EFF4 /* CatFormViewController.swift */,
+				791F0CBF2952920100430E1D /* DogWelcomeViewController.swift */,
+				79D6B5CC2953C9C900B2EFF4 /* DogFormViewController.swift */,
+				79D6B5CA2953C65200B2EFF4 /* DogSuccesViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +175,7 @@
 			files = (
 				791F0CB129526D9E00430E1D /* LaunchScreen.storyboard in Resources */,
 				791F0CAE29526D9E00430E1D /* Assets.xcassets in Resources */,
+				791F0CC22952938A00430E1D /* App Assets in Resources */,
 				791F0CAC29526D9C00430E1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791F0CA929526D9C00430E1D /* ViewController.swift in Sources */,
+				79D6B5CD2953C9C900B2EFF4 /* DogFormViewController.swift in Sources */,
+				79D6B5D1295400F700B2EFF4 /* CatFormViewController.swift in Sources */,
+				79D6B5D32954032700B2EFF4 /* CatSuccesViewController.swift in Sources */,
+				791F0CBB295270D600430E1D /* Races.swift in Sources */,
+				791F0CC02952920100430E1D /* DogWelcomeViewController.swift in Sources */,
+				79D6B5F52954340700B2EFF4 /* Model.swift in Sources */,
 				791F0CA529526D9C00430E1D /* AppDelegate.swift in Sources */,
+				79D6B5CF2953ECAE00B2EFF4 /* CatWelcomeViewController.swift in Sources */,
+				79D6B5CB2953C65200B2EFF4 /* DogSuccesViewController.swift in Sources */,
 				791F0CA729526D9C00430E1D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
